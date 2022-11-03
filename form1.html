@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/from1.php">
+
+        <h3> Registration Form</h3>
+        <label for="userName" >
+            Name:<input type="text" placeholder="userName" id="userName">
+        </label>
+        <label for="password" >
+            Password   <input type="password" placeholder="password" id="password">
+        </label>
+        
+
+        <br><br>
+        <label for="gender1" >
+            <input type="radio" name="gender" value="male" id="gender1"> Male
+        </label>
+      
+        <label for="gender2">
+        <input type="radio" name="gender" value="female" id="gender2"> Female
+        </label> 
+        <br><br>
+        <label for="101">
+            <input type="checkbox" value="maths" name="subject" id="101"> Maths
+        </label>
+        <br>
+        <label for="102">
+            <input type="checkbox" value="English" name="subject" id="102"> English
+        </label>
+
+        <br>
+        <label for="103">
+            <input type="checkbox" value="Physics" name="subject" id="101"> Physics
+        </label>
+        <br>
+        <label for="104">
+            <input type="checkbox" value="Chemistry" name="subject" id="102"> Chemistry
+        </label>
+
+        <br><br>
+        Country <select  name="Country" > 
+            <option  value="India" id="ind">India </option>
+            <option  value="China" id="China">China </option>
+            <option  value="PAk" id="pak">pak </option>
+            <option  value="US" id="us">US </option>
+        </select>
+
+
+        <br><br>
+        <label for="100">
+           FeedBack <br>
+            <textarea  id="100" placeholder="please enter your feedback" rows="5"></textarea>
+
+        </label>
+
+        <br><br>
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
